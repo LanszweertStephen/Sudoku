@@ -1,14 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package sudokupackage;
 
-/**
- *
- * @author Stephen
- */
 public class Sudoku {
-    
+    @Override
+    public String toString(){
+        return "I'm a Sudoku";
+    }
 }

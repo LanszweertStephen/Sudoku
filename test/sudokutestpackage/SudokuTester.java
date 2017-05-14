@@ -1,8 +1,8 @@
 package sudokutestpackage;
 
-import org.junit.Assert;
-import org.junit.Test;
-import static org.junit.Assert.*;
+import org.junit.*;
+import sudokupackage.Sudoku;
+
 
 
 public class SudokuTester {
@@ -11,11 +11,12 @@ public class SudokuTester {
     public void canarayTest() {
         Assert.assertTrue(true);
     }
+    
+    @Test
+    public void testToString(){
+        Assert.assertEquals("I'm a Sudoku", (new Sudoku()).toString());
+    }
 
 
-    // TODO add test methods here.
-    // The methods must be annotated with annotation @Test. For example:
-    //
-    // @Test
-    // public void hello() {}
+
 }
